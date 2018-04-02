@@ -20,7 +20,7 @@ class OpenGraphOperator
     /**
      * Constructor
      */
-    function OpenGraphOperator()
+    function __construct()
     {
         $this->Operators = array( 'opengraph', 'language_code' );
     }
